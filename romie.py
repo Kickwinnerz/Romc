@@ -23,9 +23,7 @@ def raj_logo():
 ██╔══██╗██║   ██║██║╚██╔╝██║██║
 ██║  ██║╚██████╔╝██║ ╚═╝ ██║██║
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝
-                               
-
-    """.format(Fore.YELLOW, Fore.GREEN, Fore.CYAN, Fore.MAGENTA, Fore.BLUE, Fore.WHITE)
+  """.format(Fore.YELLOW, Fore.GREEN, Fore.CYAN, Fore.MAGENTA, Fore.BLUE, Fore.WHITE)
 
     print(Fore.MAGENTA + Style.BRIGHT + logo)
 
