@@ -15,20 +15,15 @@ def approval():
 def raj_logo():
     """Display the logo and clear the screen after displaying it."""
     logo = r"""
- 
- _______                           __ 
-|       \                         |  \
-| $$$$$$$\  ______   ______ ____   \$$
-| $$__| $$ /      \ |      \    \ |  \
-| $$    $$|  $$$$$$\| $$$$$$\$$$$\| $$
-| $$$$$$$\| $$  | $$| $$ | $$ | $$| $$
-| $$  | $$| $$__/ $$| $$ | $$ | $$| $$
-| $$  | $$ \$$    $$| $$ | $$ | $$| $$
- \$$   \$$  \$$$$$$  \$$  \$$  \$$ \$$
-                                      
-                                      
-                                      
-                                      
+ooooooooo.                                o8o  
+`888   `Y88.                              `"'  
+ 888   .d88'  .ooooo.  ooo. .oo.  .oo.   oooo  
+ 888ooo88P'  d88' `88b `888P"Y88bP"Y88b  `888  
+ 888`88b.    888   888  888   888   888   888  
+ 888  `88b.  888   888  888   888   888   888  
+o888o  o888o `Y8bod8P' o888o o888o o888o o888o 
+
+                                                
                                          
                                          
     """.format(Fore.YELLOW, Fore.GREEN, Fore.CYAN, Fore.MAGENTA, Fore.BLUE, Fore.WHITE)
