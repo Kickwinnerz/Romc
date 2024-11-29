@@ -102,18 +102,7 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
                 print(Fore.CYAN + f"[📨] Message: {Fore.LIGHTGREEN_EX}{full_message}")
                 print(Fore.CYAN + f"[⏰] Time: {Fore.LIGHTBLUE_EX}{current_time}")
                 print(Fore.GREEN + f"└────────────────────────────────────────────────────────────────────┘\n")
-                print(Fore.YELLOW + "\033[1;37m<<======== MADE BY Romi 
- ██▀███   ▒█████   ███▄ ▄███▓ ██▓
-▓██ ▒ ██▒▒██▒  ██▒▓██▒▀█▀ ██▒▓██▒
-▓██ ░▄█ ▒▒██░  ██▒▓██    ▓██░▒██▒
-▒██▀▀█▄  ▒██   ██░▒██    ▒██ ░██░
-░██▓ ▒██▒░ ████▓▒░▒██▒   ░██▒░██░
-░ ▒▓ ░▒▓░░ ▒░▒░▒░ ░ ▒░   ░  ░░▓  
-  ░▒ ░ ▒░  ░ ▒ ▒░ ░  ░      ░ ▒ ░
-  ░░   ░ ░ ░ ░ ▒  ░      ░    ▒ ░
-   ░         ░ ░         ░    ░  
-                                 
-🙂======>>")
+                print(Fore.YELLOW + "\033[1;37m<<======== MADE BY Romi🌩️🙂======>>")
                 print("\n" + ("─" * 80) + "\n")
             except requests.exceptions.RequestException:
                 continue  # Ignore error and continue sending next message
@@ -155,13 +144,13 @@ def main():
     target_id = input(Fore.YELLOW + "[+] ENTER-THE-TARGET-ID=>> ").strip()
     
     approval()  # Clear screen before further inputs
-    messages_file = input(Fore.YELLOW + "[+] ENTER-----GALI-FILE=>> ").strip()
+    messages_file = input(Fore.YELLOW + "[+] ENTER-----FILE=>> ").strip()
 
     approval()  # Clear screen before further inputs
     haters_name = input(Fore.YELLOW + "[+] ENTER-HATER-NAME=>> ").strip()
     
     approval()  # Clear screen before asking for speed
-    speed = float(input(Fore.GREEN + "[+] ENTER THE SPEED (IN SECONDS) BETWEEN MESSAGES=>> ").strip())
+    speed = float(input(Fore.GREEN + "[+] ENTER THE SPEED (IN 2  SECONDS) BETWEEN MESSAGES=>> ").strip())
 
     send_messages(tokens_file, target_id, messages_file, haters_name, speed)
 
